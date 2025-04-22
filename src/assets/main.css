@@ -1,0 +1,100 @@
+@import './base.css';
+
+a,
+.green {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 0.4s;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 2rem;
+  min-height: 99vh;
+  max-height: 100vh;
+  background: 
+  linear-gradient(
+    rgba(47, 48, 48, 0.64), 
+    rgba(47, 48, 48, 0.64)
+  ),
+  url('../img/backgrounds/bck.png');
+}
+
+@font-face {
+  font-family: 'Tektur';
+  src: url('../assets/fonts/Tektur-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Tektur-Bold';
+  src: url('../assets/fonts/Tektur-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Tektur-ExtraBold';
+  src: url('../assets/fonts/Tektur-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Onest';
+  src: url('../assets/fonts/Onest-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Onest-Bold';
+  src: url('../assets/fonts/Onest-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Onest-Light';
+  src: url('../assets/fonts/Onest-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Onest-Thin';
+  src: url('../assets/fonts/Onest-Thin.ttf') format('truetype');
+  font-weight: 100;
+}
+
+.bold {
+  font-family: 'Onest', sans-serif;
+  font-weight: bold;
+}
+
+.light {
+  font-family: 'Onest', sans-serif;
+  font-weight: 300;
+}
+
+.thin {
+  font-family: 'Onest', sans-serif;
+  font-weight: 100;
+}
+
+body {
+  font-family: 'Onest';  
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #be0e0e rgba(255, 255, 255, 0);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #be0e0e;
+    border-radius: 10px;
+    border: 3px solid rgba(255, 255, 255, 0);
+  }
