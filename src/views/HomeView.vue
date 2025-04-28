@@ -27,12 +27,12 @@
 
           <div class="grid-link, navbar-icon" id="loginIcon">
               <RouterLink v-if="!store.isUserAuthenticated" :to="{ name: 'login' }" class="login-link">
-                  <img src="src/img/icons/login.png" alt="Login">
+                  <img src="../img/icons/login.png" alt="Login">
                   <span class="tooltip">Login</span>
               </RouterLink>
 
               <RouterLink v-else :to="{ name: 'dashboard' }" class="dashboard-link">  
-                <img src="src/img/icons/dashboard.png" alt="Dashboard">
+                <img src="../img/icons/dashboard.png" alt="Dashboard">
                 <span class="tooltip">Dashboard</span>
               </RouterLink>
            </div>
@@ -40,7 +40,7 @@
 
       <div class="image-container" >
           <div class="image-shadow"></div>
-          <img src="src/img/car.png" alt="" style="width: 75rem; height: auto; opacity: 0.80;">    
+          <img src="../img/car.png" alt="" style="width: 75rem; height: auto; opacity: 0.80;">    
       </div>
     </div>
 
@@ -52,7 +52,7 @@
           </div>
           <div class="grid-acerca">
             <div class="grid-acerca-item" data-aos="fade-right">
-              <img class="hamilton-image" alt="Image" src="src\img\news\hamilton.png"  />
+              <img class="hamilton-image" alt="Image" src="..\img\news\hamilton.png"  />
             </div>
             <div class="grid-acerca-item" data-aos="fade-right">
               <div class="acerca-hamilton-title">Como Surgiu ?</div><br>
@@ -76,7 +76,7 @@
               </p>
             </div>
             <div class="grid-acerca-item" data-aos="fade-left">
-              <img class="leclerc-image" alt="Image" src="src\img\news\leclerc.png" />
+              <img class="leclerc-image" alt="Image" src="..\img\news\leclerc.png" />
             </div>
           </div>
         </div>
@@ -92,62 +92,62 @@
         <div class="grid-teams">
           <div class="grid-team" data-aos="flip-left" data-aos-duration="2000">
             <div class="teams">
-              <img class="mercedes" alt="Mercedes" src="src\img\teams\mercedes.png"/>
+              <img class="mercedes" alt="Mercedes" src="..\img\teams\mercedes.png"/>
               <div class="team-overlay">Mercedes</div>
             </div>
           </div>
           <div class="grid-team" data-aos="flip-left" data-aos-duration="2000"> 
             <div class="teams">
-              <img class="ferrari" alt="Ferrari" src="src\img\teams\ferrari.png"/>
+              <img class="ferrari" alt="Ferrari" src="..\img\teams\ferrari.png"/>
               <div class="team-overlay">Ferrari</div>
             </div>
           </div>
 
           <div class="grid-team" data-aos="flip-left" data-aos-duration="2000">
             <div class="teams">
-              <img class="redbull" alt="Red Bull" src="src\img\teams\redbull.png"/>
+              <img class="redbull" alt="Red Bull" src="..\img\teams\redbull.png"/>
               <div class="team-overlay">Red Bull</div>
             </div>
           </div>
 
           <div class="grid-team" data-aos="flip-left" data-aos-duration="2000">
             <div class="teams">
-              <img class="mclaren" alt="McLaren" src="src\img\teams\mcLaren.png"/>
+              <img class="mclaren" alt="McLaren" src="..\img\teams\mcLaren.png"/>
               <div class="team-overlay">McLaren</div>
             </div>
           </div>
 
           <div class="grid-team" data-aos="flip-left" data-aos-duration="2000">
             <div class="teams">
-              <img class="astonmartin" alt="Aston Martin" src="src\img\teams\aston martin.png"/>
+              <img class="astonmartin" alt="Aston Martin" src="..\img\teams\aston martin.png"/>
               <div class="team-overlay">Aston Martin</div>
             </div>
           </div>
 
           <div class="grid-team" data-aos="flip-left" data-aos-duration="2000">
             <div class="teams">
-              <img class="alfaromeo" alt="Alfa Romeo" src="src\img\teams\alfa romeo.png"/>
+              <img class="alfaromeo" alt="Alfa Romeo" src="..\img\teams\alfa romeo.png"/>
               <div class="team-overlay">Alfa Romeo</div>
             </div>
           </div>
 
           <div class="grid-team" data-aos="flip-left" data-aos-duration="2000">
             <div class="teams">
-              <img class="haas" alt="Haas" src="src\img\teams\haas.png"/>
+              <img class="haas" alt="Haas" src="..\img\teams\haas.png"/>
               <div class="team-overlay">Haas</div>
             </div>
           </div>
 
           <div class="grid-team" data-aos="flip-left" data-aos-duration="2000">
             <div class="teams">
-              <img class="williams" alt="Williams" src="src\img\teams\williams.png"/>
+              <img class="williams" alt="Williams" src="..\img\teams\williams.png"/>
               <div class="team-overlay">Williams</div>
             </div>
           </div> 
 
           <div class="grid-team" data-aos="flip-left" data-aos-duration="2000">
             <div class="teams">
-              <img class="alphatauri" alt="Alpha Tauri" src="src\img\teams\alpha tauri.png"/>
+              <img class="alphatauri" alt="Alpha Tauri" src="..\img\teams\alpha tauri.png"/>
               <div class="team-overlay">Alpha Tauri</div>
             </div>
           </div>
@@ -157,7 +157,7 @@
 
           <div class="grid-team" data-aos="flip-left" data-aos-duration="2000">
             <div class="teams">
-              <img class="alpine" alt="Alpine" src="src\img\teams\alpine.png"/>
+              <img class="alpine" alt="Alpine" src="..\img\teams\alpine.png"/>
               <div class="team-overlay">Alpine</div>
             </div>
           </div>
@@ -175,99 +175,99 @@
         </div>
         <div class="grid-tracks">
           <div class="tracks" data-aos="fade-up">
-            <img src="src\img\tracks\bahrain.png" alt="Bahrain" class="track">
+            <img src="..\img\tracks\bahrain.png" alt="Bahrain" class="track">
             <div class="track-overlay">Bahrain</div>
           </div>
           <div class="tracks" data-aos="fade-up">
-            <img src="src\img\tracks\Saudi Arabia.png" alt="Saudi Arabia" class="track">
+            <img src="..\img\tracks\Saudi Arabia.png" alt="Saudi Arabia" class="track">
             <div class="track-overlay">Saudi Arabia</div>
           </div>
           <div class="tracks" data-aos="fade-up">
-            <img src="src\img\tracks\Australia.png" alt="Australia" class="track">
+            <img src="..\img\tracks\Australia.png" alt="Australia" class="track">
             <div class="track-overlay">Australia</div>
           </div>
           <div class="tracks" data-aos="fade-up">
-            <img src="src\img\tracks\Japan.png" alt="Japan" class="track">
+            <img src="..\img\tracks\Japan.png" alt="Japan" class="track">
             <div class="track-overlay">Japan</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="1000">
-            <img src="src\img\tracks\China.png" alt="China" class="track">
+            <img src="..\img\tracks\China.png" alt="China" class="track">
             <div class="track-overlay">China</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="1000">
-            <img src="src\img\tracks\USA1.png" alt="United States" class="track">
+            <img src="..\img\tracks\USA1.png" alt="United States" class="track">
             <div class="track-overlay">United States</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="1000">
-            <img src="src\img\tracks\Italy1.png" alt="Italy" class="track">
+            <img src="..\img\tracks\Italy1.png" alt="Italy" class="track">
             <div class="track-overlay">Italy</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="1000">
-            <img src="src\img\tracks\Monaco.png" alt="Monaco" class="track">
+            <img src="..\img\tracks\Monaco.png" alt="Monaco" class="track">
             <div class="track-overlay">Monaco</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="2000">
-            <img src="src\img\tracks\Canada.png" alt="Canada" class="track">
+            <img src="..\img\tracks\Canada.png" alt="Canada" class="track">
             <div class="track-overlay">Canada</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="2000">
-            <img src="src\img\tracks\Spain.png" alt="Spain" class="track">
+            <img src="..\img\tracks\Spain.png" alt="Spain" class="track">
             <div class="track-overlay">Spain</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="2000">
-            <img src="src\img\tracks\Austria.png" alt="Austria" class="track">
+            <img src="..\img\tracks\Austria.png" alt="Austria" class="track">
             <div class="track-overlay">Austria</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="2000">
-            <img src="src\img\tracks\UK.png" alt="United Kingdom" class="track">
+            <img src="..\img\tracks\UK.png" alt="United Kingdom" class="track">
             <div class="track-overlay">United Kingdom</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\Hungary.png" alt="Hungary" class="track">
+            <img src="..\img\tracks\Hungary.png" alt="Hungary" class="track">
             <div class="track-overlay">Hungary</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\Belgium.png" alt="Belgium" class="track">
+            <img src="..\img\tracks\Belgium.png" alt="Belgium" class="track">
             <div class="track-overlay">Belgium</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\Netherlands.png" alt="Netherlands" class="track">
+            <img src="..\img\tracks\Netherlands.png" alt="Netherlands" class="track">
             <div class="track-overlay">Netherlands</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\Italy2.png" alt="Italy" class="track">
+            <img src="..\img\tracks\Italy2.png" alt="Italy" class="track">
             <div class="track-overlay">Italy</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\Azerbaijan.png" alt="Azerbaijan" class="track">
+            <img src="..\img\tracks\Azerbaijan.png" alt="Azerbaijan" class="track">
             <div class="track-overlay">Azerbaijan</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\Singapore.png" alt="Singapore" class="track">
+            <img src="..\img\tracks\Singapore.png" alt="Singapore" class="track">
             <div class="track-overlay">Singapore</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\USA2.png" alt="United States" class="track">
+            <img src="..\img\tracks\USA2.png" alt="United States" class="track">
             <div class="track-overlay">United States</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\Mexico.png" alt="Mexico" class="track">
+            <img src="..\img\tracks\Mexico.png" alt="Mexico" class="track">
             <div class="track-overlay">Mexico</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\Brazil.png" alt="Brazil" class="track">
+            <img src="..\img\tracks\Brazil.png" alt="Brazil" class="track">
             <div class="track-overlay">Brazil</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\USA3.png" alt="United States" class="track">
+            <img src="..\img\tracks\USA3.png" alt="United States" class="track">
             <div class="track-overlay">United States</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\Qatar.png" alt="Qatar" class="track">
+            <img src="..\img\tracks\Qatar.png" alt="Qatar" class="track">
             <div class="track-overlay">Qatar</div>
           </div>
           <div class="tracks" data-aos="fade-up" data-aos-duration="3000">
-            <img src="src\img\tracks\Abu Dhabi.png" alt="Abu Dhabi" class="track">
+            <img src="..\img\tracks\Abu Dhabi.png" alt="Abu Dhabi" class="track">
             <div class="track-overlay">Abu Dhabi</div>
           </div>
         </div>
