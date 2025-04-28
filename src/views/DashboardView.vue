@@ -79,7 +79,7 @@
                   <img src="../img/components/fantasy/logo fantasy 1.png" style="width: 40%;">
                   <img src="../img/components/fantasy/Car Fantasy 2.png" style="position: relative;left: 10%;">
                 </div> 
-                <div class="div6" :style="{ background: getTeamColor(favDriver.driverId), backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }">
+                <div class="div6" :style="{ background: getTeamColor(favDriver.permanentNumber), backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }">
                   <div class="driver-number">{{ favDriver.permanentNumber }}</div>
                   <img :src="`../src/img/drivers/all/${favDriver.driverId}.png`" alt="">
                   <div class="names">
