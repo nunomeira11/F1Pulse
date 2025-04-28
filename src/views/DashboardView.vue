@@ -79,13 +79,20 @@
                   <img src="../img/components/fantasy/logo fantasy 1.png" style="width: 40%;">
                   <img src="../img/components/fantasy/Car Fantasy 2.png" style="position: relative;left: 10%;">
                 </div> 
-                <div class="div6" :style="{ background: getTeamColor(favDriver.driverId), backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }">
+                <div 
+                  class="div6" 
+                  v-if="favDriver" 
+                  :style="{ background: getTeamColor(favDriver.driverId), backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }"
+                >
                   <div class="driver-number">{{ favDriver.permanentNumber }}</div>
                   <img :src="`../src/img/drivers/all/${favDriver.driverId}.png`" alt="">
                   <div class="names">
                     <div class="givenName">{{ favDriver.givenName }}</div>
                     <div class="familyName">{{ favDriver.familyName }}</div>
                   </div>
+                </div>
+                <div v-else class="div6" style="display: flex; justify-content: center; align-items: center;">
+                  <p style="color: white; font-size: 18px;">Favorito não encontrado.</p>
                 </div>
             </div>
         </div>       
